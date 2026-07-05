@@ -1,0 +1,50 @@
+site_name: K8s Study Blog
+site_description: Hành trình học Kubernetes từ cơ bản đến production
+site_author: MinhQuan
+repo_name: k8s-study
+
+theme:
+  name: material
+  language: vi
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: teal
+      accent: lime
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+nav:
+  - Trang chủ: index.md
+  - Lộ trình học: roadmap.md
+  - 01. Pod, Deployment, ReplicaSet: 01-pod-deployment-replicaset.md
+  - 02. Service, DNS, Namespace: 02-service-dns-namespace.md
+  - 03. ConfigMap, Secret: 03-configmap-secret.md
+  - 04. Volume, PVC, StorageClass: 04-volume-pvc-storageclass.md
+  - 05. Requests/Limits và Quota: 05-resource-requests-limits-quota.md
+  - 06. StatefulSet cho Kafka/MinIO/DB: 06-statefulset-kafka-minio-db.md
+  - 07. RBAC, ServiceAccount: 07-rbac-serviceaccount.md
+  - 08. Ingress, NodePort, LoadBalancer: 08-ingress-nodeport-loadbalancer.md
+  - 09. Health check, rollout, rollback: 09-healthcheck-rollout-rollback.md
+  - 10. Helm: 10-helm.md
+  - 11. Monitoring và Logging: 11-monitoring-logging.md
+  - 12. Spark on Kubernetes: 12-spark-on-kubernetes.md
+  - 13. Kafka/MinIO/Airflow trên Kubernetes: 13-kafka-minio-airflow-on-kubernetes.md
+  - 14. CI/CD deploy lên Kubernetes: 14-cicd-deploy-kubernetes.md

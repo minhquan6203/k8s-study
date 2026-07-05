@@ -1,0 +1,19 @@
+:root {
+  --md-primary-fg-color: #0f766e;
+  --md-accent-fg-color: #65a30d;
+}
+
+.md-typeset h1 {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.md-typeset h2 {
+  border-left: 4px solid #0f766e;
+  padding-left: 0.6rem;
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 10px;
+}
