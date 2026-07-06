@@ -2029,3 +2029,4 @@ LoadBalancer = expose qua load balancer bên ngoài
 Headless = DNS trỏ trực tiếp đến Pod, hay dùng cho StatefulSet
 ```
 
+Hiểu chắc Service, DNS và Namespace là nền tảng bắt buộc trước khi học tiếp Ingress, ConfigMap, Secret, NetworkPolicy, Helm và CI/CD trên Kubernetes.
