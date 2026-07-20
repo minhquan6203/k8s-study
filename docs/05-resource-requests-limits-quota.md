@@ -1,7 +1,3 @@
-Mình sẽ viết bài **05 - Resource Requests, Limits và ResourceQuota trong Kubernetes** theo đúng format các bài trước: bắt đầu từ **vấn đề thực tế → lý thuyết → kiến trúc → manifest → ví dụ → troubleshooting → lab → checklist**.
-
----
-
 # Resource Requests, Limits và ResourceQuota trong Kubernetes: Quản lý CPU, Memory và tài nguyên Cluster
 
 Ở các bài trước, chúng ta đã học:
