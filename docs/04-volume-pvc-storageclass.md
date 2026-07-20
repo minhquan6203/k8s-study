@@ -1,14 +1,3 @@
-Mình sẽ viết tiếp **bài 04: Volume, PVC, StorageClass trong Kubernetes** theo đúng format các bài trước: đi từ **vấn đề → lý thuyết → kiến trúc → manifest → lệnh thực hành → troubleshooting → checklist**.
-
-Nội dung khá dài nên mình sẽ chia thành **2 phần** để không bị cắt:
-
-* **Phần 1:** Volume, EmptyDir, hostPath, PersistentVolume, PersistentVolumeClaim
-* **Phần 2:** StorageClass, Dynamic Provisioning, Stateful workload, lab thực hành, troubleshooting production
-
-Mình bắt đầu phần 1:
-
----
-
 # Volume, PVC và StorageClass trong Kubernetes: Quản lý dữ liệu bền vững cho ứng dụng
 
 Ở các bài trước, chúng ta đã học:
